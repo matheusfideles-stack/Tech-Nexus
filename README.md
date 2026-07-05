@@ -1,85 +1,55 @@
-#  Tech Nexus
+Tech Nexus
+===
 
-Projeto desenvolvido para a disciplina de [Nome da Disciplina], com o objetivo de aplicar os conceitos de programação estruturada utilizando a linguagem C.
+Sistema de gerenciamento de produtos, estoque e vendas para terminal, desenvolvido em linguagem C como projeto de estudo de programacao estruturada.
 
-##  Sobre o Projeto
+Sobre o Projeto
+---
 
-O Tech Nexus é um sistema desenvolvido para [descreva o objetivo do sistema].
+O Tech Nexus simula o controle de estoque e vendas de uma loja do segmento de tecnologia. Foi desenvolvido para praticar estruturas de decisao, repeticao, funcoes, manipulacao de structs e organizacao de codigo em C.
 
-O projeto foi criado com foco na prática dos fundamentos da programação, incluindo estruturas de decisão, repetição, funções, manipulação de dados e organização de código.
+Funcionalidades
+---
 
-##  Funcionalidades
+O sistema permite: cadastro de produtos, consulta e listagem de produtos, registro de vendas, controle de estoque e saida de produtos, geracao de relatorios, e possui um menu interativo colorido no terminal.
 
-- Cadastro de informações
-- Consulta de registros
-- Atualização de dados
-- Exclusão de registros
-- Menu interativo no terminal
+Tecnologias Utilizadas
+---
 
-##  Tecnologias Utilizadas
+Linguagem C, GCC (GNU Compiler Collection), Git e GitHub.
 
-- Linguagem C
-- GCC (GNU Compiler Collection)
-- Git
-- GitHub
-- Visual Studio Code
+Estrutura do Projeto
+---
 
-##  Estrutura do Projeto
+O repositorio contem o arquivo TechNexus.c (codigo fonte principal) e este README.md.
 
-```bash
-Tech-Nexus/
-│
-├── src/
-├── include/
-├── main.c
-└── README.md
-```
+Como Executar
+---
 
-## ⚙️ Como Executar
+Pre-requisitos: GCC instalado, em Windows, Linux ou macOS.
 
-### Pré-requisitos
+Clone o repositorio com git clone https://github.com/matheusfideles-stack/Tech-Nexus.git
 
-- GCC instalado
-- Sistema operacional Windows, Linux ou macOS
+Compile com gcc TechNexus.c -o tech-nexus
 
-### Clonar o repositório
+Execute com tech-nexus.exe no Windows ou ./tech-nexus no Linux/macOS.
 
-```bash
-git clone https://github.com/matheusfideles-stack/Tech-Nexus.git
-```
+Objetivos Academicos
+---
 
-### Compilar o projeto
+Este projeto teve como foco aplicar conceitos de programacao estruturada, utilizar funcoes e modularizacao, trabalhar com estruturas de dados basicas (structs), praticar logica de programacao e utilizar controle de versao com Git e GitHub.
 
-```bash
-gcc main.c -o tech-nexus
-```
+Melhorias Futuras
+---
 
-### Executar
+Separar o codigo em multiplos arquivos (.h / .c) por responsabilidade, persistir os dados em arquivo em vez de manter apenas em memoria, e adicionar validacao de entrada mais robusta.
 
-#### Windows
+Autor
+---
 
-```bash
-tech-nexus.exe
-```
+Matheus Fideles Araujo
 
-#### Linux/macOS
+Licenca
+---
 
-```bash
-./tech-nexus
-```
-
-##  Objetivos Acadêmicos
-
-- Aplicar conceitos de programação estruturada
-- Utilizar funções e modularização
-- Trabalhar com estruturas de dados básicas
-- Praticar lógica de programação
-- Utilizar controle de versão com Git e GitHub
-
-##  Autor
-
-**Matheus Fideles Araújo**
-
-##  Licença
-
-Projeto desenvolvido exclusivamente para fins acadêmicos.
+Projeto desenvolvido para fins de estudo.
